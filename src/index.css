@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+.dark-card {
+  @apply bg-gray-800 border-gray-700;
+}
+
+.dark-input {
+  @apply bg-gray-700 border-gray-600 text-white placeholder-gray-400 focus:ring-purple-500 focus:border-purple-500;
+}
+
+.dark-button {
+  @apply bg-purple-600 hover:bg-purple-700 text-white;
+}
